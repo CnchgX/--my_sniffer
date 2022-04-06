@@ -1,6 +1,5 @@
 import winreg as wr
 
-
 def get_all_net_card_info():
     IF_REG = r'SYSTEM\CurrentControlSet\Control\Network\{4d36e972-e325-11ce-bfc1-08002be10318}'
     reg = wr.ConnectRegistry(None, wr.HKEY_LOCAL_MACHINE)
